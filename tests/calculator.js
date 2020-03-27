@@ -11,7 +11,7 @@ describe('Demo calculator tests', function () {
         home.enterSecondNumber('12');
         home.clickGo();
         home.verifyResults('18');
-        browser.sleep(5000);
+        browser.sleep(4000);
 
     });
 
