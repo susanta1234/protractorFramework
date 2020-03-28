@@ -3,6 +3,8 @@ let homepage = function () {
     let firstNumber = element(by.model('first'));
     let secondNumber = element(by.model('second'));
     let goButton = element(by.css('[ng-click="doAddition()"]'));
+    let ddl = element(by.model('operator'));
+             
 
     this.getUrl = function (url) {
 
@@ -13,6 +15,11 @@ let homepage = function () {
     this.enterFirstNumber = function (firstNo) {
 
         firstNumber.sendKeys(firstNo);
+    };
+
+   this.dropDownValue=function(operation)
+    {
+       ddl.$('[value= '+ operation +']').click();
     };
 
     this.enterSecondNumber = function (secondNo) {
@@ -34,4 +41,4 @@ let homepage = function () {
     };
 
 };
-//module.exports = new homepage();   
+   module.exports = new homepage();    

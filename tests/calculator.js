@@ -7,12 +7,15 @@ describe('Demo calculator tests', function () {
 
         home.getUrl('http://juliemr.github.io/protractor-demo/');
 
-        home.enterFirstNumber('6');
+        home.enterFirstNumber('65');
 
-       // element.all(by.tagName('option')).get(2);
-        home.enterSecondNumber('12');
+        home.dropDownValue('SUBTRACTION');
+         //var ddl = element(by.model('operator'));
+         //ddl.$('[value="MULTIPLICATION"]').click();
+         // element(by.model('operator')).$('[value="MODULO"]').click();
+        home.enterSecondNumber('33');
         home.clickGo();
-        home.verifyResults('18');
+        home.verifyResults('32');
         browser.sleep(6000);
 
     });

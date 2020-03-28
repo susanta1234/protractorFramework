@@ -36,6 +36,7 @@ exports.config = {
 
   // Assign the test reporter to each running instance
   onPrepare: function () {
+    browser.driver.manage().window().maximize();
     var jasmineReporters = require('jasmine-reporters');
     jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter({
       consolidateAll: true,
