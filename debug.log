@@ -15,3 +15,5 @@
 [0326/155627.654:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\320074~1\AppData\Local\Temp\scoped_dir2284_1305582777\Crashpad: The system cannot find the file specified. (0x2)
 [0326/163146.948:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\320074~1\AppData\Local\Temp\scoped_dir7056_79950207\Crashpad: The system cannot find the file specified. (0x2)
 [0327/131028.622:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\320074~1\AppData\Local\Temp\scoped_dir17264_1150977745\Crashpad: The system cannot find the file specified. (0x2)
+[0328/202053.855:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\320074~1\AppData\Local\Temp\scoped_dir10456_335571558\Crashpad: The system cannot find the file specified. (0x2)
+[0328/202108.079:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\320074~1\AppData\Local\Temp\scoped_dir9540_1172532825\Crashpad: The system cannot find the file specified. (0x2)

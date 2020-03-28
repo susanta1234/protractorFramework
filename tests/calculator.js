@@ -8,6 +8,8 @@ describe('Demo calculator tests', function () {
         home.getUrl('http://juliemr.github.io/protractor-demo/');
 
         home.enterFirstNumber('6');
+
+       // element.all(by.tagName('option')).get(2);
         home.enterSecondNumber('12');
         home.clickGo();
         home.verifyResults('18');
