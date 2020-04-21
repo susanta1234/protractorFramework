@@ -7,15 +7,15 @@ describe('Demo calculator tests', function () {
 
         home.getUrl('http://juliemr.github.io/protractor-demo/');
 
-        home.enterFirstNumber('65');
+        home.enterFirstNumber('20');
 
         home.dropDownValue('SUBTRACTION');
          //var ddl = element(by.model('operator'));
          //ddl.$('[value="MULTIPLICATION"]').click();
          // element(by.model('operator')).$('[value="MODULO"]').click();
-        home.enterSecondNumber('33');
+        home.enterSecondNumber('15');
         home.clickGo();
-        home.verifyResults('32');
+        home.verifyResults('5');
         browser.sleep(8000);
 
     });
